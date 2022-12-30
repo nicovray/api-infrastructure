@@ -1,0 +1,15 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "prefix": {
+            "value": "nico-dev"
+        },
+        "vNetId": {
+            "value": "/subscriptions/f77f1622-aabd-4066-be6e-bf3edd0d1c9d/resourceGroups/RG_Nico_Demo/providers/Microsoft.Network/virtualNetworks/nico-dev-vnet"
+        }
+    }
+}
